@@ -1,0 +1,85 @@
+aid: kindred-ventures
+name: Kindred Ventures
+description: >-
+  Kindred Ventures is a San Francisco-based, earliest-stage venture capital firm founded in 2014 by
+  Steve Jang and led today as a partnership with Managing Partners Steve Jang and Kanyi Maqubela. The
+  firm backs visionary and relentless founders building the future with technology and science,
+  investing primarily at the pre-seed and seed stage and often partnering with entrepreneurs before a
+  company is even formed. Kindred runs a deliberately concentrated, high-touch model of roughly 25
+  companies per fund, and has backed 100+ startups whose aggregate market capitalization now exceeds
+  $200B. It invests across AI and new computing, crypto/web3, fintech, consumer, health and wellness,
+  climate tech, mobility and logistics, and developer tools and infrastructure. With around $600M in
+  assets under management, notable investments and exits include Uber, Coinbase, Poshmark, Reddit,
+  Postmates, Blue Bottle Coffee, Perplexity, Tala, Magic Eden, dYdX, and PlayAI (acquired by Meta in
+  2025).
+image: https://kindredventures.com/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Pre-Seed
+  - Seed
+  - Artificial Intelligence
+  - Crypto
+  - Fintech
+  - Consumer
+  - Health & Wellness
+  - Climate Tech
+  - Developer Tools
+  - Infrastructure
+  - San Francisco
+  - North America
+apis: []
+common:
+  - type: Website
+    url: https://kindredventures.com/
+  - type: Portfolio
+    url: https://kindredventures.com/portfolio/
+  - type: Portfolio
+    url: portfolio/kindred-ventures-portfolio.yml
+  - type: Team
+    url: https://kindredventures.com/about/
+  - type: Team
+    url: team/kindred-ventures-team.yml
+  - type: InvestmentThesis
+    url: https://kindredventures.com/about/
+  - type: Blog
+    url: https://medium.com/kindred-ventures
+  - type: News
+    url: https://kindredventures.com/news/
+  - type: Jobs
+    url: https://kindredventures.getro.com/jobs
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/kindred-ventures-2
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/kindredventures/
+  - type: Twitter
+    url: https://twitter.com/kindredventures
+  - type: Contact
+    url: https://us9.list-manage.com/contact-form?u=7227162fe9bfefa2742c6799b&form_id=a8d44b00a40ea7ca5da044a44649466e
+  - type: Features
+    data:
+      - "Stage: Earliest-stage (primarily pre-seed and seed)"
+      - "Model: Concentrated, high-touch portfolio of ~25 companies per fund"
+      - "Sectors: AI, crypto/web3, fintech, consumer, health & wellness, climate tech, mobility & logistics, tools & infrastructure"
+      - "Geography: San Francisco / United States, global"
+      - "AUM: ~$600M (self-reported)"
+      - "Portfolio: 100+ companies, $200B+ aggregate market cap"
+      - "Founded: 2014"
+      - "HQ: San Francisco, California, USA"
+    sources:
+      - https://kindredventures.com/
+      - https://kindredventures.com/about/
+      - https://www.vcsheet.com/fund/kindred-ventures
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Kindred Ventures
+    url: https://kindredventures.com/
