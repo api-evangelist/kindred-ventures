@@ -3,9 +3,9 @@ method: searched
 source: https://kindredventures.com/portfolio/
 summary:
   portfolio_total: 117
-  in_network: 26
-  api_providers: 17
-  missing: 91
+  in_network: 117
+  api_providers: 27
+  missing: 0
   stubs_created: 0
 companies:
 - name: Aalo Atomics
@@ -13,59 +13,67 @@ companies:
   source: https://kindredventures.com/portfolio/
   status: active
   sector: climate-tech
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aalo-atomics
+  slug: aalo-atomics
+  matched_by: domain
 - name: Adyton
   url: https://adyton.io/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adyton
+  slug: adyton
+  matched_by: name-slug
 - name: Aethero
   url: https://aethero.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aethero
+  slug: aethero
+  matched_by: domain
 - name: Alliance
   url: https://alliance.xyz/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alliance
+  slug: alliance
+  matched_by: domain
 - name: Animoto
   url: https://animoto.com/
   source: https://kindredventures.com/portfolio/
   status: active
   sector: consumer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: animoto
+  slug: animoto
+  matched_by: domain
 - name: Anjuna
   url: https://anjuna.io/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anjuna
+  slug: anjuna
+  matched_by: domain
 - name: Architectlabs
   url: https://architectlabs.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: architectlabs
+  slug: architectlabs
+  matched_by: domain
 - name: Atlascard
   url: https://atlascard.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atlascard
+  slug: atlascard
+  matched_by: domain
 - name: Basis Theory
   url: https://basistheory.com/
   source: https://kindredventures.com/portfolio/
@@ -79,16 +87,18 @@ companies:
   url: https://besoundbreast.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: besoundbreast
+  slug: besoundbreast
+  matched_by: domain
 - name: Bitski
   url: https://bitski.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
-  is_api_provider: false
-  suggested_slug: bitski
+  in_network: true
+  is_api_provider: true
+  slug: bitski
+  matched_by: domain
 - name: Bloomcredit
   url: https://bloomcredit.io/
   source: https://kindredventures.com/portfolio/
@@ -102,32 +112,36 @@ companies:
   source: https://kindredventures.com/portfolio/
   status: acquired
   sector: consumer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blue-bottle-coffee
+  slug: bluebottlecoffee
+  matched_by: domain
 - name: Catalog
   url: https://catalog.works/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: catalog
+  slug: catalog
+  matched_by: domain
 - name: CloudTrucks
   url: https://cloudtrucks.com/
   source: https://kindredventures.com/portfolio/
   status: active
   sector: mobility-logistics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cloudtrucks
+  slug: cloudtrucks
+  matched_by: domain
 - name: Clubhouse
   url: https://clubhouse.com/
   source: https://kindredventures.com/portfolio/
   status: active
   sector: consumer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clubhouse
+  slug: clubhouse
+  matched_by: domain
 - name: Coinbase
   url: https://coinbase.com/
   source: https://kindredventures.com/portfolio/
@@ -142,32 +156,35 @@ companies:
   source: https://kindredventures.com/portfolio/
   status: active
   sector: crypto
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cointracker
+  slug: cointracker
+  matched_by: domain
 - name: Collective
   url: https://collective.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: collective
+  slug: collective
+  matched_by: domain
 - name: Color Health
   url: https://color.com/
   source: https://kindredventures.com/portfolio/
   status: active
   sector: health-wellness
-  slug: color-genomics
+  slug: color
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Corgi
   url: https://corgi.insure/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: corgi
+  slug: corgi
+  matched_by: domain
 - name: Creatify
   url: https://creatify.ai/
   source: https://kindredventures.com/portfolio/
@@ -180,44 +197,50 @@ companies:
   url: https://dawn.health/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dawn
+  slug: dawn
+  matched_by: domain
 - name: Daze
   url: https://daze.chat/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daze
+  slug: daze
+  matched_by: domain
 - name: Dedaluslabs
   url: https://dedaluslabs.ai/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
-  is_api_provider: false
-  suggested_slug: dedaluslabs
+  in_network: true
+  is_api_provider: true
+  slug: dedaluslabs
+  matched_by: domain
 - name: District
   url: https://district.net/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: district
+  slug: district
+  matched_by: domain
 - name: Dripshop
   url: https://dripshop.live/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dripshop
+  slug: dripshop
+  matched_by: domain
 - name: Dupe
   url: https://dupe.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dupe
+  slug: dupe
+  matched_by: domain
 - name: dYdX
   url: https://dydx.exchange/
   source: https://kindredventures.com/portfolio/
@@ -231,24 +254,27 @@ companies:
   url: https://enigmalabs.io/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enigmalabs
+  slug: enigmalabs
+  matched_by: domain
 - name: Extropic
   url: https://extropic.ai/
   source: https://kindredventures.com/portfolio/
   status: active
   sector: ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: extropic
+  slug: extropic
+  matched_by: domain
 - name: Faircraft
   url: https://faircraft.bio/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: faircraft
+  slug: faircraft
+  matched_by: domain
 - name: fal
   url: https://fal.ai/
   source: https://kindredventures.com/portfolio/
@@ -262,45 +288,50 @@ companies:
   url: https://fearn.ai/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fearn
+  slug: fearn
+  matched_by: domain
 - name: Fountain
   url: https://fountain.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  slug: fountain-com
+  slug: fountain
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Fundamental
   url: https://fundamental.tech/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fundamental
+  slug: fundamental
+  matched_by: domain
 - name: Fwb
   url: https://fwb.help/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fwb
+  slug: fwb
+  matched_by: domain
 - name: Causal
   url: https://getcausal.ai/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: causal
+  slug: causal
+  matched_by: name-slug
 - name: Grid
   url: https://getgrid.app/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grid
+  slug: grid
+  matched_by: name-slug
 - name: Harbor
   url: https://harbor.com/
   source: https://kindredventures.com/portfolio/
@@ -314,17 +345,19 @@ companies:
   source: https://kindredventures.com/portfolio/
   status: active
   sector: health-wellness
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heartbeat-health
+  slug: heartbeat-health
+  matched_by: domain
 - name: HelloTech
   url: https://hellotech.com/
   source: https://kindredventures.com/portfolio/
   status: active
   sector: consumer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hellotech
+  slug: hellotech
+  matched_by: domain
 - name: Hinge Health
   url: https://hingehealth.com/
   source: https://kindredventures.com/portfolio/
@@ -338,60 +371,68 @@ companies:
   url: https://hourone.ai/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
-  is_api_provider: false
-  suggested_slug: hourone
+  in_network: true
+  is_api_provider: true
+  slug: hourone
+  matched_by: domain
 - name: Housable
   url: https://housable.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: housable
+  slug: housable
+  matched_by: domain
 - name: Humane
   url: https://humane.com/
   source: https://kindredventures.com/portfolio/
   status: acquired
   sector: consumer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: humane
+  slug: humane
+  matched_by: domain
 - name: Humanq
   url: https://humanq.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: humanq
+  slug: humanq
+  matched_by: domain
 - name: Hydrahost
   url: https://hydrahost.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hydrahost
+  slug: hydrahost
+  matched_by: domain
 - name: Iconicgames
   url: https://iconicgames.io/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iconicgames
+  slug: iconicgames
+  matched_by: domain
 - name: Insighthealth
   url: https://insighthealth.ai/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: insighthealth
+  slug: insighthealth
+  matched_by: domain
 - name: Inversion Space
   url: https://inversionspace.com/
   source: https://kindredventures.com/portfolio/
   status: active
   sector: tools-infrastructure
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inversion-space
+  slug: inversion-space
+  matched_by: domain
 - name: Iso
   url: https://iso.io/
   source: https://kindredventures.com/portfolio/
@@ -405,51 +446,58 @@ companies:
   source: https://kindredventures.com/portfolio/
   status: active
   sector: consumer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: italic
+  slug: italic
+  matched_by: domain
 - name: Ellis
   url: https://joinellis.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ellis
+  slug: ellis
+  matched_by: name-slug
 - name: Secondnature
   url: https://joinsecondnature.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: secondnature
+  slug: secondnature
+  matched_by: domain
 - name: Kaaj
   url: https://kaaj.ai/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kaaj
+  slug: kaaj
+  matched_by: domain
 - name: Kinema
   url: https://kinema.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kinema
+  slug: kinema
+  matched_by: domain
 - name: Kotoba
   url: https://kotoba.tech/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kotoba
+  in_network: true
+  is_api_provider: true
+  slug: kotoba
+  matched_by: domain
 - name: Linearlabsinc
   url: https://linearlabsinc.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: linearlabsinc
+  slug: linearlabsinc
+  matched_by: domain
 - name: Magic Eden
   url: https://magiceden.io/
   source: https://kindredventures.com/portfolio/
@@ -481,30 +529,34 @@ companies:
   url: https://mobilecoin.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mobilecoin
+  slug: mobilecoin
+  matched_by: domain
 - name: Mobillis
   url: https://mobillis.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mobillis
+  slug: mobillis
+  matched_by: domain
 - name: Morf
   url: https://morf.health/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: morf
+  slug: morf
+  matched_by: domain
 - name: Noh
   url: https://noh.com.br/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: noh
+  slug: noh
+  matched_by: domain
 - name: Northflank
   url: https://northflank.com/
   source: https://kindredventures.com/portfolio/
@@ -527,23 +579,26 @@ companies:
   url: https://o1labs.org/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: o1labs
+  slug: o1labs
+  matched_by: domain
 - name: Opalcamera
   url: https://opalcamera.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: opalcamera
+  slug: opalcamera
+  matched_by: domain
 - name: Ottopay
   url: https://ottopay.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ottopay
+  slug: ottopay
+  matched_by: domain
 - name: Zora
   url: https://ourzora.com/
   source: https://kindredventures.com/portfolio/
@@ -557,9 +612,10 @@ companies:
   url: https://over.world/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: over
+  slug: over
+  matched_by: domain
 - name: Parasail
   url: https://parasail.io/
   source: https://kindredventures.com/portfolio/
@@ -572,9 +628,10 @@ companies:
   url: https://parcha.ai/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
-  is_api_provider: false
-  suggested_slug: parcha
+  in_network: true
+  is_api_provider: true
+  slug: parcha
+  matched_by: domain
 - name: Particle
   url: https://particle.news/
   source: https://kindredventures.com/portfolio/
@@ -597,9 +654,10 @@ companies:
   source: https://kindredventures.com/portfolio/
   status: acquired
   sector: consumer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: poshmark
+  slug: poshmark
+  matched_by: domain
 - name: Postmates
   url: https://postmates.com/
   source: https://kindredventures.com/portfolio/
@@ -613,23 +671,26 @@ companies:
   url: https://proof.xyz/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: proof
+  slug: proof
+  matched_by: domain
 - name: Prosperhealth
   url: https://prosperhealth.io/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prosperhealth
+  slug: prosperhealth
+  matched_by: domain
 - name: Quo
   url: https://quo.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
-  is_api_provider: false
-  suggested_slug: quo
+  in_network: true
+  is_api_provider: true
+  slug: quo
+  matched_by: domain
 - name: Rangeme
   url: https://rangeme.com/
   source: https://kindredventures.com/portfolio/
@@ -643,87 +704,99 @@ companies:
   source: https://kindredventures.com/portfolio/
   status: active
   sector: tools-infrastructure
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rebellions
+  slug: rebellions
+  matched_by: domain
 - name: Redplanetlabs
   url: https://redplanetlabs.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: redplanetlabs
+  slug: redplanetlabs
+  matched_by: domain
 - name: Replenysh
   url: https://replenysh.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: replenysh
+  slug: replenysh
+  matched_by: domain
 - name: Robeaute
   url: https://robeaute.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: robeaute
+  slug: robeaute
+  matched_by: domain
 - name: Rocksolid
   url: https://rocksolid.network/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rocksolid
+  in_network: true
+  is_api_provider: true
+  slug: rocksolid
+  matched_by: domain
 - name: Sandbar
   url: https://sandbar.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sandbar
+  slug: sandbar
+  matched_by: domain
 - name: Scorecard
   url: https://scorecard.io/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
-  is_api_provider: false
-  suggested_slug: scorecard
+  in_network: true
+  is_api_provider: true
+  slug: scorecard
+  matched_by: domain
 - name: Seedclub
   url: https://seedclub.xyz/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seedclub
+  slug: seedclub
+  matched_by: domain
 - name: Sophontai
   url: https://sophontai.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sophontai
+  slug: sophontai
+  matched_by: name-slug
 - name: Stablesea
   url: https://stablesea.xyz/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
-  is_api_provider: false
-  suggested_slug: stablesea
+  in_network: true
+  is_api_provider: true
+  slug: stablesea
+  matched_by: name-slug
 - name: StyleSeat
   url: https://styleseat.com/
   source: https://kindredventures.com/portfolio/
   status: active
   sector: consumer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: styleseat
+  slug: styleseat
+  matched_by: domain
 - name: Superjampad
   url: https://superjampad.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: superjampad
+  slug: superjampad
+  matched_by: domain
 - name: Syndica
   url: https://syndica.io/
   source: https://kindredventures.com/portfolio/
@@ -738,45 +811,51 @@ companies:
   source: https://kindredventures.com/portfolio/
   status: active
   sector: fintech
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tala
+  slug: tala
+  matched_by: domain
 - name: Tenlittle
   url: https://tenlittle.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tenlittle
+  slug: tenlittle
+  matched_by: domain
 - name: Tonal
   url: https://tonal.com/
   source: https://kindredventures.com/portfolio/
   status: active
   sector: health-wellness
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tonal
+  slug: tonal
+  matched_by: domain
 - name: Torch
   url: https://torch.io/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: torch
+  slug: torch
+  matched_by: domain
 - name: Tribes
   url: https://tribes.xyz/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tribes
+  slug: tribes
+  matched_by: domain
 - name: Tuli
   url: https://tuli.health/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tuli
+  slug: tuli
+  matched_by: domain
 - name: Uber
   url: https://uber.com/
   source: https://kindredventures.com/portfolio/
@@ -790,18 +869,19 @@ companies:
   url: https://unlock-protocol.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
-  is_api_provider: false
-  suggested_slug: unlock-protocol
+  in_network: true
+  is_api_provider: true
+  slug: unlock-protocol
+  matched_by: domain
 - name: Braintrust
   url: https://usebraintrust.com/
   source: https://kindredventures.com/portfolio/
   status: active
   sector: tools-infrastructure
-  slug: braintrust
+  slug: usebraintrust
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
 - name: Optic
   url: https://useoptic.com/
   source: https://kindredventures.com/portfolio/
@@ -815,79 +895,90 @@ companies:
   url: https://usepomo.ai/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pomo
+  slug: pomo
+  matched_by: domain
 - name: Utopialabs
   url: https://utopialabs.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: utopialabs
+  slug: utopialabs
+  matched_by: domain
 - name: Variant
   url: https://variant.ai/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: variant
+  slug: variant
+  matched_by: name-slug
 - name: Warblerlabs
   url: https://warblerlabs.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: warblerlabs
+  slug: warblerlabs
+  matched_by: domain
 - name: Conceive
   url: https://weconceive.com/
   source: https://kindredventures.com/portfolio/
   status: active
   sector: health-wellness
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: conceive
+  slug: conceive
+  matched_by: domain
 - name: Whisper Aero
   url: https://whisperaero.com/
   source: https://kindredventures.com/portfolio/
   status: active
   sector: mobility-logistics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: whisper-aero
+  slug: whisper-aero
+  matched_by: name-slug
 - name: Assured
   url: https://withassured.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: assured
+  slug: assured
+  matched_by: name-slug
 - name: Otis
   url: https://withotis.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: otis
+  slug: otis
+  matched_by: domain
 - name: Woodstock
   url: https://woodstock.co/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: woodstock
+  slug: woodstock
+  matched_by: domain
 - name: Zudo
   url: https://zudo.work/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zudo
+  slug: zudo
+  matched_by: domain
 - name: Zymergen
   url: https://zymergen.com/
   source: https://kindredventures.com/portfolio/
   status: acquired
   sector: tools-infrastructure
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zymergen
+  slug: zymergen
+  matched_by: domain

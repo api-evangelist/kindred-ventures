@@ -12,6 +12,17 @@ description: >-
   assets under management, notable investments and exits include Uber, Coinbase, Poshmark, Reddit,
   Postmates, Blue Bottle Coffee, Perplexity, Tala, Magic Eden, dYdX, and PlayAI (acquired by Meta in
   2025).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://kindredventures.com/favicon.ico
 x-type: venture-capital
 x-category: Venture Capital
