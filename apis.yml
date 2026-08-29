@@ -12,6 +12,17 @@ description: >-
   assets under management, notable investments and exits include Uber, Coinbase, Poshmark, Reddit,
   Postmates, Blue Bottle Coffee, Perplexity, Tala, Magic Eden, dYdX, and PlayAI (acquired by Meta in
   2025).
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
