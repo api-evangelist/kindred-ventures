@@ -2,11 +2,8 @@
   "repo": "kindred-ventures",
   "feeds": [
     {
-      "source": "https://kindredventures.com/about/",
-      "feed_url": "https://kindredventures.com/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "discovered"
+      "source": "https://medium.com/kindred-ventures",
+      "error": "HTTPError"
     },
     {
       "source": "https://kindredventures.com/feed/",
@@ -17,5 +14,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
