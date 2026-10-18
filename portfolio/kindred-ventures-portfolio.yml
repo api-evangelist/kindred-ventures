@@ -3,9 +3,9 @@ method: searched
 source: https://kindredventures.com/portfolio/
 summary:
   portfolio_total: 117
-  in_network: 117
-  api_providers: 27
-  missing: 0
+  in_network: 109
+  api_providers: 28
+  missing: 8
   stubs_created: 0
 companies:
 - name: Aalo Atomics
@@ -39,7 +39,7 @@ companies:
   status: unknown
   in_network: true
   is_api_provider: false
-  slug: alliance
+  slug: alliance-dao
   matched_by: domain
 - name: Animoto
   url: https://animoto.com/
@@ -114,7 +114,7 @@ companies:
   sector: consumer
   in_network: true
   is_api_provider: false
-  slug: bluebottlecoffee
+  slug: blue-bottle-coffee
   matched_by: domain
 - name: Catalog
   url: https://catalog.works/
@@ -296,9 +296,9 @@ companies:
   url: https://fountain.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  slug: fountain
+  slug: fountain-com
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Fundamental
   url: https://fundamental.tech/
@@ -306,7 +306,7 @@ companies:
   status: unknown
   in_network: true
   is_api_provider: false
-  slug: fundamental
+  slug: fundamental-technologies
   matched_by: domain
 - name: Fwb
   url: https://fwb.help/
@@ -320,18 +320,18 @@ companies:
   url: https://getcausal.ai/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: causal
-  matched_by: name-slug
+  x-name-collision: causal
+  suggested_slug: getcausal-ai
 - name: Grid
   url: https://getgrid.app/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: grid
-  matched_by: name-slug
+  x-name-collision: grid
+  suggested_slug: getgrid-app
 - name: Harbor
   url: https://harbor.com/
   source: https://kindredventures.com/portfolio/
@@ -431,7 +431,7 @@ companies:
   sector: tools-infrastructure
   in_network: true
   is_api_provider: false
-  slug: inversion-space
+  slug: inversion
   matched_by: domain
 - name: Iso
   url: https://iso.io/
@@ -454,18 +454,17 @@ companies:
   url: https://joinellis.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: ellis
-  matched_by: name-slug
+  x-name-collision: ellis
+  suggested_slug: joinellis-com
 - name: Secondnature
   url: https://joinsecondnature.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: secondnature
-  matched_by: domain
+  suggested_slug: secondnature
 - name: Kaaj
   url: https://kaaj.ai/
   source: https://kindredventures.com/portfolio/
@@ -503,7 +502,7 @@ companies:
   source: https://kindredventures.com/portfolio/
   status: active
   sector: crypto
-  slug: magiceden
+  slug: magic-eden
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -581,7 +580,7 @@ companies:
   status: unknown
   in_network: true
   is_api_provider: false
-  slug: o1labs
+  slug: o1-labs
   matched_by: domain
 - name: Opalcamera
   url: https://opalcamera.com/
@@ -604,10 +603,10 @@ companies:
   source: https://kindredventures.com/portfolio/
   status: active
   sector: crypto
-  slug: zora
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: zora
+  suggested_slug: ourzora-com
 - name: Over
   url: https://over.world/
   source: https://kindredventures.com/portfolio/
@@ -768,10 +767,10 @@ companies:
   url: https://sophontai.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: sophontai
-  matched_by: name-slug
+  x-name-collision: sophontai
+  suggested_slug: sophontai-com
 - name: Stablesea
   url: https://stablesea.xyz/
   source: https://kindredventures.com/portfolio/
@@ -896,7 +895,7 @@ companies:
   source: https://kindredventures.com/portfolio/
   status: unknown
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: pomo
   matched_by: domain
 - name: Utopialabs
@@ -905,7 +904,7 @@ companies:
   status: unknown
   in_network: true
   is_api_provider: false
-  slug: utopialabs
+  slug: utopia-labs
   matched_by: domain
 - name: Variant
   url: https://variant.ai/
@@ -937,18 +936,18 @@ companies:
   source: https://kindredventures.com/portfolio/
   status: active
   sector: mobility-logistics
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: whisper-aero
-  matched_by: name-slug
+  x-name-collision: whisper-aero
+  suggested_slug: whisperaero-com
 - name: Assured
   url: https://withassured.com/
   source: https://kindredventures.com/portfolio/
   status: unknown
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: assured
-  matched_by: name-slug
+  x-name-collision: assured
+  suggested_slug: withassured-com
 - name: Otis
   url: https://withotis.com/
   source: https://kindredventures.com/portfolio/

@@ -1,4 +1,60 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: kindred-ventures
-leads: []
+leads:
+- name: Causal
+  url: https://getcausal.ai/
+  suggested_slug: getcausal-ai
+  sector: ''
+  source_vc: kindred-ventures
+  source: https://kindredventures.com/portfolio/
+  stub_created: false
+- name: Grid
+  url: https://getgrid.app/
+  suggested_slug: getgrid-app
+  sector: ''
+  source_vc: kindred-ventures
+  source: https://kindredventures.com/portfolio/
+  stub_created: false
+- name: Ellis
+  url: https://joinellis.com/
+  suggested_slug: joinellis-com
+  sector: ''
+  source_vc: kindred-ventures
+  source: https://kindredventures.com/portfolio/
+  stub_created: false
+- name: Secondnature
+  url: https://joinsecondnature.com/
+  suggested_slug: secondnature
+  sector: ''
+  source_vc: kindred-ventures
+  source: https://kindredventures.com/portfolio/
+  stub_created: false
+- name: Zora
+  url: https://ourzora.com/
+  suggested_slug: ourzora-com
+  sector: crypto
+  source_vc: kindred-ventures
+  source: https://kindredventures.com/portfolio/
+  stub_created: false
+- name: Sophontai
+  url: https://sophontai.com/
+  suggested_slug: sophontai-com
+  sector: ''
+  source_vc: kindred-ventures
+  source: https://kindredventures.com/portfolio/
+  stub_created: false
+- name: Whisper Aero
+  url: https://whisperaero.com/
+  suggested_slug: whisperaero-com
+  sector: mobility-logistics
+  source_vc: kindred-ventures
+  source: https://kindredventures.com/portfolio/
+  stub_created: false
+- name: Assured
+  url: https://withassured.com/
+  suggested_slug: withassured-com
+  sector: ''
+  source_vc: kindred-ventures
+  source: https://kindredventures.com/portfolio/
+  stub_created: false
